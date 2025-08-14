@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "This script if from Github"
-TEXT = $1
+TEXT=$1
 if [ -z "$TEXT" ]; then
     echo "No text provided. Please provide some text as an argument."
     exit 1
